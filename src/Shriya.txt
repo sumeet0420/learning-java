@@ -1,0 +1,1 @@
+select distinct professor.name, course.name from professor join department on professor.department_id = department.id join

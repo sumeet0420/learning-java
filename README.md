@@ -1,23 +1,24 @@
 # Java Learning
 
 ---
-## Day 1 (05 June 2020) 
+## Day 1 (03 July 2020) 
 - [x] Hello Java
 - [x] Primitive Data Types
 - [x] Arithmetic Operations
 ---
-## Day 2 (06 June 2020)
+## Day 2 (03 July 2020)
 - [x] Boolean Expression
 - [x] Execution Loops
 - [x] If, If else, If else if, nested if loop
 - [x] for loop
 ---
 ## Day 3
-- [ ] Logical OR and Logical AND
-- [ ] while loop, do while
-- [ ] switch case
-- [ ] Methods and Method Overloading
+- [x] Logical OR and Logical AND
+- [x] while loop, do while
+- [x] switch case
+- [] continue, break
 - [ ] Arrays
+- [ ] Methods and Method Overloading
 ---
 ## Day 4 and Day 5 
 - [ ] Classes and Objects
@@ -61,3 +62,6 @@
 ---
 ## Day 14 & Day 15 & Day 16
 - [ ] Advance Java (Java 8 and Beyond)
+
+## Day 17 
+- [ ] Eclipse

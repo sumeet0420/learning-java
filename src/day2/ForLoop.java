@@ -12,9 +12,9 @@ public class ForLoop {
         }
 
         System.out.println("****************");
-        for ( int i=5; i>=5; i--){
+        for ( int i=5; true; i--) {
             System.out.println("Hello at i = "  + i);
         }
-
+         
     }
 }

@@ -6,7 +6,8 @@ public class PrimitiveDataTypes {
         //Primitive Data Types - 8 Types
         //byte, char, int, float, long, boolean, short, double
 
-        int a = 100; //Max 2^31-1 for positive and negative
+        int z = 890;
+    	int a = 100; //Max 2^31-1 for positive and negative
         long b = 100; //Max 2^64-1 for positive and negative numbers
         float c = 100.0f; //Float needs to be ended with f
         double d = 100.90; //Decimal
@@ -47,9 +48,9 @@ public class PrimitiveDataTypes {
         System.out.println(1+2); //Expression
         System.out.println("sum: "+1+2); //Concatenation
         System.out.println("sum: "+(1+a)); //Concatenation and expression
+        System.out.println("sum: "+a+z); //Concatenation and expression
         //Will throw Compilation error
         //System.out.println("sum: "+(1+ q)); //Concatenation and expression
-
 
     }
 
