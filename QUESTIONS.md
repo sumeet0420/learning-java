@@ -35,7 +35,12 @@
 30. Given a string “AAABBCDA”, write a program that give the output as “A4B2C1D1”.
 31. Given a string ‘ABC CORPORATION CENTER’, find the index of second last ‘C’.
 32. Given a string like “abds323a4b45a”, write a program to find the count the number of digits present in the string. 
-33. Given a string like “abds323a4b45a”, write a program to find the sum of each digit present in the string. 34. Given a String ‘HELLO, HOW ARE YOU’, print all the vowels that occurred in the string. 35. Given a string like “abds323a47b5a”, write a program to find the sum of each number present in the string. A number is considered when it is followed by another numner. O/P -> 323+47+5=370. 36. Write a program to add the two string in time format (HH:MM) without using date time library. 37. Write a program to convert ‘GooD MorNinG’ to gOOd mORnINg without using toUpperCase and toLowerCase functionality.
+33. Given a string like “abds323a4b45a”, write a program to find the sum of each digit present in the string.
+34. Given a String ‘HELLO, HOW ARE YOU’, print all the vowels that occurred in the string. 
+35. Given a string like “abds323a47b5a”, write a program to find the sum of each number present in the string. 
+    A number is considered when it is followed by another numner. O/P -> 323+47+5=370. 
+36. Write a program to add the two string in time format (HH:MM) without using date time library. 
+37. Write a program to convert ‘GooD MorNinG’ to gOOd mORnINg without using toUpperCase and toLowerCase functionality.
 38. Given a string “How are you. Mr”, write  a program to print letter/letters after “.”
 39. Write a program to print the next letter of each character from a given String. Ex -> I/P = HARI, O/P = “IBSJ”.
 40. Given a string abc_u@gmail.com, find whether it is valid email address or not. A valid email will have the format “a-z._”@gmail.domain Domain can be “com, in, eu, us”
@@ -56,3 +61,4 @@
 51. Write a program to reverse an integer.
 52. Write a Set of 5 numbers in single line.  
 53. Write a method that print whether a given is greater than 5 or not. You can use only if block. not, else block, or any other loop, or declare a new variable.
+54. Write a program to find the prime numbers from 1 to 100.

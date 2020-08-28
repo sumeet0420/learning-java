@@ -1,10 +1,13 @@
 package assignment;
 
+import java.util.Optional;
+
 public class Question53 {
 
     public static void main(String[] args) {
         System.out.println(isNumberGreaterThan5(4));
         isNumberGreaterThan5_Exit(10);
+        isNumberGreaterThan5_lambda(1);
     }
 
     private static void isNumberGreaterThan5_Exit(int number) {
@@ -20,5 +23,9 @@ public class Question53 {
         if(number>5)
             return true;
         return false;
+    }
+
+    private static boolean isNumberGreaterThan5_lambda(int number) {
+        return Optional.of(number).map(num -> num > 5).orElse(false);
     }
 }

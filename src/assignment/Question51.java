@@ -7,16 +7,16 @@ import static java.lang.Math.log10;
 public class Question51 {
 
     public static void main(String[] args) {
-        reverseAnInteger_whileLoop(654321);
-        reverseAnInteger_string(654321);
+      ///  reverseAnInteger_whileLoop(654321);
+       // reverseAnInteger_string(654321);
         reverseAnInteger_forLoop(654321);
-        reverseAnInteger_recursion(654321);
+        //reverseAnInteger_recursion(654321);
         reverseAnInteger_lambdas(654321);
     }
 
     private static void reverseAnInteger_lambdas(int number) {
         String numString = String.valueOf(number);
-        IntStream.rangeClosed(numString.length()-1,0).mapToObj(x->numString.charAt(x)).forEach(System.out::print);
+        IntStream.rangeClosed((numString.length()-1),0).mapToObj(numString::charAt).forEach(System.out::print);
     }
 
     private static void reverseAnInteger_recursion(int number) {
@@ -55,6 +55,7 @@ public class Question51 {
     }
 
     private static void reverseAnInteger_string(int number) {
+
         String numString = String.valueOf(number);
         for (int i = (numString.length() - 1); i >= 0; i--) {
             System.out.print(numString.charAt(i));
