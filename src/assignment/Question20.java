@@ -22,4 +22,6 @@ public class Question20 {
         System.out.println(num2);
     }
 
+
+
 }
