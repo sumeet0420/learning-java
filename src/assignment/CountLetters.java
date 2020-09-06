@@ -1,8 +1,11 @@
 package assignment;
 
-import java.util.LinkedHashMap;
-import java.util.Map;
+import java.util.Arrays;
 import java.util.Optional;
+
+import static java.util.function.Function.identity;
+import static java.util.stream.Collectors.partitioningBy;
+import static java.util.stream.Collectors.toMap;
 
 public class CountLetters {
 
@@ -28,10 +31,13 @@ public class CountLetters {
             reverse = reverse + original.charAt(i);
         }
         System.out.println("reverse is:" + reverse);
-
+        //TODO ONLY FOR LEARNING PURPOSES
         Optional.of(reverse).map(word->word.equals(original)).filter(CountLetters::isTrue)
                 .ifPresentOrElse(print -> System.out.println("The number is palindrome"),
                 () -> System.out.println("The number is not palindrome"));
+
+        System.out.println(Arrays.stream("abcde".split("")).collect(partitioningBy(letter -> "aeiou".contains(letter))));
+        System.out.println(Arrays.stream("abcde".split("")).collect(toMap(identity(), letter->letter==null?1:letter+1)));
     }
 
     private static boolean isTrue(Boolean output) {
