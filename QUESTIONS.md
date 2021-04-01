@@ -24,7 +24,7 @@
 21. Write a program to swap two values in a variable without using third variable.
 22. Given a number, calculate the sum of all even digits and all odd digits separately in a given number. 
 
-##Strings 
+## Strings 
 23. Write a program to remove the leading and trailing white spaces from a String.
 24. Write a program to reverse a string without using the reverse function.
 25. Write a program to find whether a string is palindrome or not.
