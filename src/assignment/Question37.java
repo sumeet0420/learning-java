@@ -1,5 +1,6 @@
 package assignment;
 
+import java.util.List;
 import java.util.stream.Stream;
 
 import static java.lang.Character.*;
@@ -9,16 +10,19 @@ public class Question37 {
 
     public static void main(String[] args) {
         String word = "GooD MorNinG!";
-        range(0, word.length()).mapToObj(word::charAt).map(Question37::covertCase)
-                .forEach(System.out::print);
-        System.out.println();
-        Stream.of(word.split("")).map(letter->letter.charAt(0))
-                .map(Question37::covertCase).forEach(System.out::print);
-    }
-
-    private static Character covertCase(Character letter) {
-        return isLowerCase(letter) ? toUpperCase(letter) : isUpperCase(letter)
-                                   ? toLowerCase(letter) : letter;
+        List<String> upperLetters = List.of("A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z");
+        List<String> lowerLetters = List.of("a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z");
+        String output = "";
+        for (int i = 0; i < word.length(); i++) {
+            final String letter = String.valueOf(word.charAt(i));
+            final int indexOfLetter = lowerLetters.indexOf(letter);
+            if (indexOfLetter != -1) {
+                output = output + upperLetters.get(indexOfLetter);
+            }else {
+                output = output+letter;
+            }
+        }
+        System.out.println(output);
     }
 
 
