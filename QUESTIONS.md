@@ -62,4 +62,9 @@
 52. Write a Set of 5 numbers in single line.  
 53. Write a method that print whether a given is greater than 5 or not. You can use only if block. not, else block, or any other loop, or declare a new variable.
 54. Write a program to find the prime numbers from 1 to 100.
-55. Write a program to rotate a matrix by 90 degree either clockwise or anti-clockwise.
+55. Write a program to rotate the matrix by 90 degree in clockwise and anticlockwise. 
+56. Given a string, does "xyz" appear in the middle of the string? To define middle, we'll say that the number of chars to the left and right of the "xyz" must differ by at most one.
+    xyzMiddle("AAxyzBB") → true
+    xyzMiddle("AxyzBB") → true
+    xyzMiddle("AxyzBBB") → false
+    xyzMiddle("ABBxyzB") → false

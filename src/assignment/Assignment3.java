@@ -1,5 +1,7 @@
 package assignment;
 
+import org.jetbrains.annotations.NotNull;
+
 public class Assignment3 {
     /**
      * <b>Pole Length => L meters<b/> <br>
@@ -8,10 +10,10 @@ public class Assignment3 {
      * @param args
      */
     public static void main(String[] args) {
-        System.out.println(monkeyClimbs(15, 3, 2, 2, 2));
+        System.out.println(monkeyClimbs(null, 3, 2, 2, 2));
     }
 
-    private static int monkeyClimbs(int poleLenth, int upClimbDistance, int upClimsHours, int downDistance, int downTime) {
+    private static int monkeyClimbs( @NotNull Integer poleLenth, int upClimbDistance, int upClimsHours, int downDistance, int downTime) {
         int timeCount=0;
         int distanceCount=0;
         while (distanceCount<poleLenth) {
@@ -27,17 +29,3 @@ public class Assignment3 {
         return timeCount;
     }
 }
-/***
- |
- |
- |
- |
- |
- |
- |
- |
- ||
-
-
-
- */

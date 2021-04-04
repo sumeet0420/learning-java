@@ -55,7 +55,7 @@ Open Project View => Alt + 1
 Open Favorites => Alt + 2
 Open Run => Alt + 4
 Open Debug => Alt + 5
-Open Problems => Alt + 6
+Open Problems => Alt + 6(2020.2)
 Open Structure => Alt + 7
 Open Git => Alt + 9
 Switch Back to Editor => Esc
@@ -74,3 +74,8 @@ Inspection On Whole Project => Analyze => Inspect Code
 ### Print Your Keymap
 https://plugins.jetbrains.com/plugin/7066-keymap-exporter
 
+###Postfix Completion
+###Live Template
+
+###Rendered Documents
+Setting=>General=>Appearance=>Render documentation comments

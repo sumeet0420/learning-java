@@ -20,7 +20,8 @@ public class Question7 {
         }
         return numbers;
     }
+
+    record Numbers(Integer num1, Integer num2, Integer maxProduct){}
+
 }
 
-
-record Numbers(Integer num1, Integer num2, Integer maxProduct){}
